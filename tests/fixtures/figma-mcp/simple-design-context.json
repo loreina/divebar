@@ -1,0 +1,36 @@
+{
+  "$comment": "synthetic — replace with redacted real responses when available",
+  "id": "200:300",
+  "name": "Tag",
+  "type": "COMPONENT",
+  "fileKey": "fileKey-simple",
+  "componentKey": "componentKey-tag",
+  "componentProperties": {
+    "label": {
+      "type": "TEXT",
+      "defaultValue": "Tag"
+    }
+  },
+  "style": {
+    "cornerRadius": 4,
+    "fills": [
+      {
+        "type": "SOLID",
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:1:1",
+            "name": "color/brand/500"
+          }
+        }
+      }
+    ],
+    "boundVariables": {
+      "cornerRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:5:1",
+        "name": "radius/sm"
+      }
+    }
+  }
+}

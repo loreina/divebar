@@ -1,0 +1,14 @@
+{
+  "$comment": "synthetic — replace with redacted real responses when available",
+  "id": "300:400",
+  "name": "IconButton",
+  "type": "COMPONENT",
+  "fileKey": "fileKey-aria",
+  "componentKey": "componentKey-icon-button",
+  "componentProperties": {
+    "aria-label": {
+      "type": "TEXT",
+      "defaultValue": "Click me"
+    }
+  }
+}

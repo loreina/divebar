@@ -1,0 +1,26 @@
+{
+  "get_metadata": [
+    {
+      "id": "31854:163353",
+      "name": "Tag",
+      "children": [
+        { "id": "31854:163354", "name": "Size=Small, Kind=Primary" },
+        { "id": "31854:163355", "name": "Size=Large, Kind=Primary" },
+        { "id": "31854:163356", "name": "Size=Small, Kind=Secondary" },
+        { "id": "31854:163357", "name": "Size=Large, Kind=Secondary" }
+      ]
+    },
+    {
+      "id": "31854:200000",
+      "name": "Chip",
+      "children": [
+        { "id": "31854:200001", "name": "State=Default" },
+        { "id": "31854:200002", "name": "State=Selected" }
+      ]
+    }
+  ],
+  "search_design_system": [
+    { "nodeId": "31854:163353", "key": "tag-key-abc" },
+    { "nodeId": "31854:200000", "key": "chip-key-def" }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Tag",
+    "nodeId": "31854:163353",
+    "componentKey": "tag-key-abc",
+    "variantProperties": {
+      "Size": [
+        "Small",
+        "Large"
+      ],
+      "Kind": [
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "children": [
+      {
+        "name": "Size=Small, Kind=Primary",
+        "nodeId": "31854:163354"
+      },
+      {
+        "name": "Size=Large, Kind=Primary",
+        "nodeId": "31854:163355"
+      },
+      {
+        "name": "Size=Small, Kind=Secondary",
+        "nodeId": "31854:163356"
+      },
+      {
+        "name": "Size=Large, Kind=Secondary",
+        "nodeId": "31854:163357"
+      }
+    ]
+  },
+  {
+    "name": "Chip",
+    "nodeId": "31854:200000",
+    "componentKey": "chip-key-def",
+    "variantProperties": {
+      "State": [
+        "Default",
+        "Selected"
+      ]
+    },
+    "children": [
+      {
+        "name": "State=Default",
+        "nodeId": "31854:200001"
+      },
+      {
+        "name": "State=Selected",
+        "nodeId": "31854:200002"
+      }
+    ]
+  }
+]

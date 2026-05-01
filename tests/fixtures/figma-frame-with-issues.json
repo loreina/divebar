@@ -1,0 +1,56 @@
+{
+  "id": "1:1",
+  "name": "Root",
+  "type": "FRAME",
+  "children": [
+    {
+      "id": "2:1",
+      "name": "Tag",
+      "type": "INSTANCE",
+      "componentKey": "tag-key-abc",
+      "variantProperties": {
+        "Size": "⛔ XSmall (Deprecated)",
+        "Kind": "Primary"
+      }
+    },
+    {
+      "id": "2:2",
+      "name": "Banner",
+      "type": "FRAME",
+      "fills": [{ "type": "SOLID", "color": { "hex": "#FF6B35" } }]
+    },
+    {
+      "id": "2:3",
+      "name": "Chip",
+      "type": "FRAME",
+      "fills": []
+    },
+    {
+      "id": "2:4",
+      "name": "card",
+      "type": "INSTANCE",
+      "componentKey": "card-not-in-mirror"
+    },
+    {
+      "id": "2:5",
+      "name": "Tag",
+      "type": "INSTANCE",
+      "componentKey": "tag-key-abc",
+      "overrides": { "label": "Sale" }
+    },
+    {
+      "id": "2:6",
+      "name": "Tag",
+      "type": "INSTANCE",
+      "componentKey": "tag-key-abc",
+      "overrides": { "label": "Hot" }
+    },
+    {
+      "id": "2:7",
+      "name": "Tag",
+      "type": "INSTANCE",
+      "componentKey": "tag-key-abc",
+      "overrides": { "label": "New" }
+    }
+  ]
+}

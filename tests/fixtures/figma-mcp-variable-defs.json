@@ -1,0 +1,32 @@
+{
+  "modes": [
+    { "modeId": "1:0", "name": "Consumer" },
+    { "modeId": "1:1", "name": "Consumer Dark" }
+  ],
+  "variables": [
+    {
+      "name": "color/brand/500",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": "#5B6CFF",
+        "1:1": "#3F4FE6"
+      }
+    },
+    {
+      "name": "spacing/sm",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "1:0": 8,
+        "1:1": 8
+      }
+    },
+    {
+      "name": "label/cta",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "1:0": "Continue",
+        "1:1": "Continue"
+      }
+    }
+  ]
+}

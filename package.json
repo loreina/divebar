@@ -1,0 +1,57 @@
+{
+  "name": "divebar",
+  "version": "0.1.0",
+  "description": "Round-trip your design system between Figma and code.",
+  "keywords": [
+    "figma",
+    "design-system",
+    "design-tokens",
+    "mcp",
+    "code-connect",
+    "cli"
+  ],
+  "author": "Loreina Chew",
+  "license": "MIT",
+  "homepage": "https://github.com/loreina/divebar#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loreina/divebar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loreina/divebar/issues"
+  },
+  "type": "module",
+  "bin": {
+    "divebar": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "bun run src/cli.ts",
+    "build": "bun build src/cli.ts --target=node --outfile=dist/cli.js",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "bun test && bun run build"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.4.2",
+    "commander": "^12.0.0",
+    "glob": "^13.0.6",
+    "prettier": "^3.3.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "fast-check": "^3.20.0",
+    "typescript": "^5.5.0"
+  }
+}

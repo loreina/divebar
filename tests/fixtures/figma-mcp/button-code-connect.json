@@ -1,0 +1,18 @@
+{
+  "$comment": "synthetic — replace with redacted real responses when available",
+  "componentKey": "componentKey-button-set-cc",
+  "variantMappings": {
+    "size": {
+      "sm": "Small",
+      "lg": "Large"
+    },
+    "kind": {
+      "primary": "Primary",
+      "secondary": "Secondary"
+    }
+  },
+  "propBindings": {
+    "Label": "label",
+    "Icon": "icon"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "$comment": "synthetic — replace with redacted real responses when available",
+  "id": "100:200",
+  "name": "Button",
+  "type": "COMPONENT_SET",
+  "fileKey": "fileKey-button",
+  "componentKey": "componentKey-button-set",
+  "componentProperties": {
+    "size": {
+      "type": "VARIANT",
+      "variantOptions": ["sm", "lg"]
+    },
+    "kind": {
+      "type": "VARIANT",
+      "variantOptions": ["primary", "secondary"]
+    },
+    "Icon": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": ""
+    },
+    "Label": {
+      "type": "TEXT",
+      "defaultValue": "Click me"
+    }
+  },
+  "style": {
+    "cornerRadius": 8,
+    "paddingLeft": 12,
+    "paddingTop": 8,
+    "boundVariables": {
+      "cornerRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:5:1",
+        "name": "radius/sm"
+      },
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:1",
+        "name": "spacing/sm"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:2",
+        "name": "spacing/xs"
+      }
+    }
+  },
+  "variants": [
+    {
+      "id": "100:201",
+      "name": "size=sm,kind=primary",
+      "properties": {
+        "size": "sm",
+        "kind": "primary"
+      },
+      "style": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:1:1",
+                "name": "color/brand/500"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "100:202",
+      "name": "size=lg,kind=secondary",
+      "properties": {
+        "size": "lg",
+        "kind": "secondary"
+      },
+      "style": {
+        "fills": [
+          {
+            "type": "SOLID",
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:1:2",
+                "name": "color/neutral/0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
